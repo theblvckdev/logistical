@@ -1,0 +1,11 @@
+export const tabButtonsData = [
+  { title: "History", category: "history" },
+  { title: "Mission", category: "mission" },
+  { title: "Vision", category: "vision" }
+];
+
+export const tabContents = [
+  { detail: "At Logistica, we are more than just a logistics company – we are the architects of seamless supply chains, the navigators of global trade, and the enablers of business growth. With a passion for innovation and a commitment to excellence, we have been at the forefront of the logistics industry for over a decade.Founded in 1984, Lostica began as a vision to redefine logistics. Our journey started with a small team and a big idea: to provide comprehensive, customer-centric solutions that transcend borders and challenges. Through dedication and hard work, we have grown into a global logistics leader, connecting businesses and markets across continents.", category: "history" },
+  { detail: "At Logistica, our mission is to be the driving force behind global commerce. We are dedicated to providing innovative, reliable, and tailored logistics solutions that empower businesses to thrive in a dynamic world. With a commitment to excellence and a passion for customer success, we strive to create seamless supply chains, bridge distances, and connect opportunities. Through our expertise, technology-driven approach, and unwavering dedication, we aim to be the preferred partner for businesses seeking to navigate the complexities of logistics with confidence.", category: "mission" },
+  { detail: "At Logistica, our vision is to revolutionize the logistics landscape by setting new standards of excellence and innovation. We envision a future where businesses seamlessly connect, borders dissolve, and possibilities are limitless. Through cutting-edge technology, sustainable practices, and a relentless pursuit of improvement, we aim to be the catalyst that transforms global trade. By continuously exceeding expectations, embracing change, and creating value for our clients, we aspire to become the trusted global leader in shaping the future of logistics.", category: "vision" }
+];
