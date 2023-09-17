@@ -10,7 +10,7 @@ const ServiceSteps = () => {
             {serviceData.map((data, index) => {
               const { icon, title, detail } = data;
               return (
-                <div data-aos="fade-in" data-aos-duration="3000" key={index}>
+                <div data-aos="fade-in" data-aos-duration="2000" key={index}>
                   <div className="ico_wrap flex items-center justify-center">
                     <div className="ico_box h-[100px] text-[50px] w-[100px] bg-black rounded-[50%] flex items-center justify-center">
                       {icon}

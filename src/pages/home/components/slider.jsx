@@ -12,7 +12,7 @@ const CarouselSlider = () => {
     <>
       <section className='py-[5rem] overflow-hidden bg-white'>
         <div className='px-[20px] lg:px-[50px] w-full'>
-          <Swiper data-aos="fade-left" data-aos-duration="3000" grabCursor={true} centeredSlides={true} loop={true} slidesPerView={"auto"} modules={[Navigation, Autoplay]} autoplay={{ delay: 3000 }} navigation={{ nextEl: ".next_btn", prevEl: ".prev_btn", clickable: true }} effect='coverflow' coverflowEffect={{ rotate: 0, stretch: 0, depth: 100, modifier: 2.5 }} className='flex justify-center'>
+          <Swiper data-aos="fade-left" data-aos-duration="2000" grabCursor={true} centeredSlides={true} loop={true} slidesPerView={"auto"} modules={[Navigation, Autoplay]} autoplay={{ delay: 2000 }} navigation={{ nextEl: ".next_btn", prevEl: ".prev_btn", clickable: true }} effect='coverflow' coverflowEffect={{ rotate: 0, stretch: 0, depth: 100, modifier: 2.5 }} className='flex justify-center'>
             {imageSliderData.map((sliderData, index) => {
               const { imageUrl, description } = sliderData;
               return (
