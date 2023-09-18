@@ -9,7 +9,7 @@ const Projects = () => {
         {projectsImageData.map((projectData, index) => {
           const { imageURL, imageDescription, projectTitle } = projectData;
           return (
-            <div key={index} data-aos="fade-up" data-aos-duration="3000" className='h-[200px] md:h-[180px] lg:h-[150px] xl:h-[200px] relative project_image_wrap w-full rounded-[10px] overflow-hidden'>
+            <div key={index} data-aos="fade-up" data-aos-duration="2000" className='h-[200px] md:h-[180px] lg:h-[150px] xl:h-[200px] relative project_image_wrap w-full rounded-[10px] overflow-hidden'>
               <img src={imageURL} width={'100%'} className='duration-700' alt={imageDescription} />
               <div className="image_overlay z-[1] absolute h-full w-full top-0 left-0"></div>
               <div className="bottom-0 left-0 p-[20px] w-full text-white absolute z-[2]">

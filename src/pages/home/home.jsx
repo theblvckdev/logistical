@@ -10,7 +10,7 @@ import CarouselSlider from './components/slider'
 import Triumphs from './components/triumps'
 import Highlights from './components/highlights'
 import ContactRef from '../../components/contactRef'
-import Footer from '../../components/footer'
+import OurStaff from './components/ourStaff'
 
 const HomePage = () => {
   return (
@@ -25,8 +25,8 @@ const HomePage = () => {
         <CarouselSlider />
         <Triumphs />
         <Highlights />
+        <OurStaff />
         <ContactRef />
-        <Footer />
       </main>
     </>
   )

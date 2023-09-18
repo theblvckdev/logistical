@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technoligies Used
+<ul>
+  <li>
+    `AOS` - Used for oncroll animation.
+  </li>
+  <li>
+    `Sass` - CSS preprocessor
+  </li>
+  <li>
+    `TailwindCss` - CSS framework
+  </li>
+  <li>
+    `React-router-dom` - Page routing
+  </li>
+  <li>
+    `React-icons` - Icons resource
+  </li>
+</ul>
+
 ## Available Scripts
 
 In the project directory, you can run:
