@@ -5,19 +5,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Technoligies Used
 <ul>
   <li>
-    `AOS` - Used for oncroll animation.
+    AOS - Used for oncroll animation.
   </li>
   <li>
-    `Sass` - CSS preprocessor
+    Sass - CSS preprocessor
   </li>
   <li>
-    `TailwindCss` - CSS framework
+    TailwindCss - CSS framework
   </li>
   <li>
-    `React-router-dom` - Page routing
+    React-router-dom - Page routing
   </li>
   <li>
-    `React-icons` - Icons resource
+    React-icons - Icons resource
   </li>
 </ul>
 
