@@ -5,7 +5,6 @@ body {
   padding: 0%;
   overflow-x: hidden;
   box-sizing: border-box;
-  font-family: 'Jost', sans-serif !important;
 }
 
 ::selection {
@@ -21,32 +20,6 @@ body {
 .img_el::after {
   border-bottom: 2px solid #000;
   border-right: 2px solid #000;
-}
-
-a {
-  font-family: 'Jost', sans-serif !important;
-}
-
-button {
-  font-family: 'Jost', sans-serif !important;
-}
-
-h1,
-h2,
-h4,
-h5,
-h6 {
-  font-family: 'Outfit' !important;
-}
-
-h3 {
-  font-family: 'Jost', sans-serif !important;
-}
-
-p {
-  font-family: 'Jost', sans-serif !important;
-  font-size: 17px;
-  font-weight: 400px;
 }
 
 .contact_ref {
