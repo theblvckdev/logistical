@@ -40,7 +40,10 @@ const Navbar = () => {
                 ? "-m-1.5 p-1.5 text-gray-900"
                 : "-m-1.5 p-1.5 text-white"
             }>
-            <h1 className="text-2xl tracking-widest font-jost leading-[24px] font-normal uppercase">
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              className="text-2xl tracking-widest font-jost leading-[24px] font-normal uppercase">
               Logistica.
             </h1>
           </Link>
@@ -68,6 +71,8 @@ const Navbar = () => {
               <Link
                 key={index}
                 to={linkPath}
+                data-aos="fade-left"
+                data-aos-duration="2000"
                 className={
                   navbarBgChanged
                     ? "no-underline tracking-widest font-jost px-[10px] duration-500  text-gray-900 text-lg font-light"
@@ -77,7 +82,11 @@ const Navbar = () => {
               </Link>
             );
           })}
-          <Link to={"/signup"} className="no-underline ml-[50px]">
+          <Link
+            to={"/signup"}
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="no-underline ml-[50px]">
             <Button
               variant={navbarBgChanged ? "black" : "white"}
               ringVariant={navbarBgChanged ? "ring-black" : "ring-white"}
