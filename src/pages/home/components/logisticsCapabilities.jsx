@@ -81,7 +81,7 @@ const LogisticsCapabilities = () => {
                       data-aos-duration="2000"
                       className="flex flex-col items-center">
                       <div className="text-gray-800 mt-[50px] w-full">
-                        <h1 className="text-[86px] font-bedasNeue leading-[86px] xl:text-[102px] -tracking-[1px] percentage_value font-[400] xl:leading-[102px]">
+                        <h1 className="text-[86px] font-bedasNeue font-bold leading-[86px] xl:text-[102px] -tracking-[1px] percentage_value xl:leading-[102px]">
                           {percentage}%
                         </h1>
                         <hr className="mt-3" />

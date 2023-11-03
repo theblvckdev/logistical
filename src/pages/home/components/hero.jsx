@@ -7,10 +7,16 @@ const HeroBanner = () => {
     <>
       <section className="hero_banner flex items-center justify-center relative h-screen w-screen overflow-hidden">
         <div className="hero_text px-[20px]">
-          <h1 className="text-white font-bold font-outfit tracking-wide text-3xl md:text-6xl xl:text-8xl xl:leading-[96px] leading-[30px] md:leading-[60px]">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            className="text-white font-bold font-outfit tracking-wide text-3xl md:text-6xl xl:text-8xl xl:leading-[96px] leading-[30px] md:leading-[60px]">
             Logistics Excellence: <br /> Beyond Boundries
           </h1>
-          <p className="mt-8 w-full font-jost md:w-8/12 text-white lg:leading-8 lg:text-lg">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            className="mt-8 w-full font-jost md:w-8/12 text-white lg:leading-8 lg:text-lg">
             Optimized logistics can reduce transportation, storage, and
             inventory costs, leading to higher profitability.
           </p>
