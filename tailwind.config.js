@@ -6,7 +6,7 @@ module.exports = {
     fontFamily: {
       jost: ["Jost", "sans-serif"],
       outfit: ["Outfit", "sans-serif"],
-      bedasNeue: ["Bedas Neue"],
+      bedasNeue: ["Bedas Neue", "sans-serif"],
     },
   },
   plugins: [],
