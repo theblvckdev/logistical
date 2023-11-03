@@ -35,11 +35,7 @@ const Navbar = () => {
         <div className="flex lg:flex-1">
           <Link
             to="/"
-            className={
-              navbarBgChanged
-                ? "-m-1.5 p-1.5 text-gray-900"
-                : "-m-1.5 p-1.5 text-white"
-            }>
+            className={navbarBgChanged ? "text-gray-900" : "text-white"}>
             <h1
               data-aos="fade-right"
               data-aos-duration="2000"
