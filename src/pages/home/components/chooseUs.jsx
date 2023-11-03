@@ -123,7 +123,7 @@ const ChooseUs = () => {
               <div
                 data-aos="fade-left"
                 data-aos-duration="2000"
-                className="image_wrap mt-[100px] xl:mt-0 xl:w-[40%] xl:h-[100%] xl:mt-[100px] flex items-center justify-center">
+                className="image_wrap mt-[100px] xl:w-[40%] xl:h-[100%] xl:mt-[100px] flex items-center justify-center">
                 <div className="relative img_el before:absolute before:-top-[5%] before:-left-[5%] before:h-[100px] before:w-[100px] after:absolute after:-bottom-[5%] after:-right-[5%] after:h-[100px] after:w-[100px]">
                   <img src={CargoImage} width={"100%"} alt="cargo ship" />
                 </div>
