@@ -6,6 +6,7 @@ const FeaturesSlider = () => {
     <>
       <section className="features_slider relative h-[55vh]">
         <div className="absolute bottom-0 left-0 right-0">
+          {/* eslint-disable-next-line */}
           <marquee
             className="text-white mb-3"
             behavior="scroll"
@@ -15,7 +16,7 @@ const FeaturesSlider = () => {
                 const { fistFeature, secondFeature } = features;
                 return (
                   <div key={index}>
-                    <h1 className="text-[86px] font-outfit leading-[86px] xl:text-[102px] tracking-[1px] percentage_value font-[400] xl:leading-[102px] text-white flex gap-[4rem]">
+                    <h1 className="text-[86px] leading-[86px] xl:text-[102px] tracking-[1px] percentage_value font-bedasNeue font-bold xl:leading-[120px] text-white flex gap-[4rem]">
                       {fistFeature} {secondFeature}
                     </h1>
                   </div>
