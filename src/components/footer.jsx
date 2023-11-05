@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full bg-white overflow-hidden py-[5rem]">
-        <div className="flex gap-4 px-[20px] lg:px-[50px]">
-          <div className="basis-1/2">
+        <div className="md:flex gap-4 px-[20px] lg:px-[50px]">
+          <div className="md:basis-1/2">
             <div>
               <Link to="/" className="text-gray-900">
                 <h1
@@ -32,7 +32,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="basis-1/4">
+          <div className="mt-5 md:mt-0 md:basis-1/3">
             <h1
               data-aos="fade-up"
               data-aos-duration="2000"
@@ -59,7 +59,7 @@ const Footer = () => {
               })}
             </div>
           </div>
-          <div className="basis-1/4">
+          <div className="md:basis-1/3">
             <h1
               data-aos="fade-up"
               data-aos-duration="2000"

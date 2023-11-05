@@ -28,7 +28,7 @@ const ContactRef = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="text-white font-outfit font-[700] text-[40px] leading-[40px] md:text-[50px] md:leading-[50px] xl:text-[70px] xl:leading-[100px]">
+              className="text-white font-outfit font-[700] text-[35px] leading-[40px] md:text-[50px] md:leading-[50px] xl:text-[70px] xl:leading-[70px]">
               Have a project in mind?
             </h1>
             <h4
