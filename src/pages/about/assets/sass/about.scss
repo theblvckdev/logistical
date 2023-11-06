@@ -1,6 +1,7 @@
 .about_banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 30%, rgb(0, 0, 0, 0.63)), url('../images/about_banner.jpg');
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
