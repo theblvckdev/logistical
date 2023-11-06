@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
 import Projects from "../../../components/projects";
+import ExternalLink from "../../../components/externalLink";
 
 const Triumphs = () => {
   return (
@@ -16,14 +15,11 @@ const Triumphs = () => {
           </h1>
           <hr className="mt-9" />
           <div className="mt-2">
-            <Link
-              to={"/projects"}
-              data-aos="fade-left"
-              data-aos-duration="2000"
-              className="no-underline ml-auto text-gray-900 relative w-fit before:absolute before:-bottom-[20%] before:left-0 before:h-[1px] before:bg-gray-900 before:w-full duration-500 hover:before:w-0 before:duration-500 font-jost font-[500] text-[20px] flex items-center gap-3">
-              <span>Latest Projects</span>
-              <FaIcons.FaExternalLinkAlt />
-            </Link>
+            <ExternalLink
+              linkPath={"/projects"}
+              linkText={"Latest Services"}
+              addedClass={"ml-auto"}
+            />
           </div>
           <h3
             data-aos="fade-in"
