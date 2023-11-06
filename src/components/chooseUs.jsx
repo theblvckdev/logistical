@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
+import ExternalLink from "../components/externalLink";
 import { tabButtonsData, tabContents } from "../data/navTabsData";
 import { statsBarData } from "../data/statsBar";
 import CargoImage from "../assets/images/cargo_ship.jpg";
 
-const ChooseUs = ({ showLink }) => {
+const ChooseUs = ({ showLink, floatDiraction }) => {
   const [toggleTab, setToggleTab] = useState("history");
   const changeTab = (index) => {
     setToggleTab(index);
@@ -15,17 +14,14 @@ const ChooseUs = ({ showLink }) => {
       <section className="py-[5rem] bg-white overflow-hidden">
         <div className="px-[20px] lg:px-[50px] w-full">
           {showLink ? (
-            <Link
-              to={"/about"}
-              data-aos="fade-left"
-              data-aos-duration="2000"
-              className="no-underline ml-auto text-gray-900 font-jost relative w-fit before:absolute before:-bottom-[20%] before:left-0 before:h-[1px] before:bg-gray-900 before:w-full duration-500 hover:before:w-0 before:duration-500 font-[500] text-[20px] flex items-center gap-3">
-              <span>About Us</span>
-              <FaIcons.FaExternalLinkAlt />
-            </Link>
+            <ExternalLink
+              addedClass={floatDiraction}
+              linkPath={"About"}
+              linkText={"About Us"}
+            />
           ) : null}
           <h1
-            data-aos="fade-right"
+            data-aos={`fade-right`}
             data-aos-duration="2000"
             className="text-gray-800 font-outfit mt-[50px] font-[700] text-[40px] leading-[40px] md:text-[66px] md:leading-[66px] xl:text-[114px] xl:leading-[114px]">
             Why Choose Us
