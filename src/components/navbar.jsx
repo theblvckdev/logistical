@@ -3,25 +3,29 @@ import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
 import * as HiIcons from "react-icons/hi2";
 import * as GrIcons from "react-icons/gr";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { navbarLinks } from "../data/navbarLinksData";
 import Button from "./button";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [navbarBgChanged, setNavbarBgChanged] = useState(false);
-  const changeNavbarBg = () => {
-    if (window.scrollY >= 60) {
-      setNavbarBgChanged(true);
-    } else {
-      setNavbarBgChanged(false);
-    }
-  };
+  const location = useLocation();
 
   useEffect(() => {
-    changeNavbarBg();
-    window.addEventListener("scroll", changeNavbarBg);
-  });
+    window.onscroll = () => {
+      if (window.scrollY >= 60) {
+        setNavbarBgChanged(true);
+      } else {
+        setNavbarBgChanged(false);
+      }
+    };
+
+    return () => {
+      window.scrollTo(0, 0);
+      setNavbarBgChanged(false);
+    };
+  }, [location]);
   return (
     <header
       className={
@@ -67,8 +71,6 @@ const Navbar = () => {
               <Link
                 key={index}
                 to={linkPath}
-                data-aos="fade-left"
-                data-aos-duration="2000"
                 className={
                   navbarBgChanged
                     ? "no-underline tracking-widest font-jost px-[10px] duration-500  text-gray-900 text-lg font-light"
