@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Layout from "./layout/layout";
 import About from "./pages/about/about";
+import Services from "./pages/services/services";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,10 @@ function App() {
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/services",
+          element: <Services />,
         },
       ],
       errorElement: <PageNotFound />,
