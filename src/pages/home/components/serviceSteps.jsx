@@ -5,7 +5,7 @@ const ServiceSteps = () => {
   return (
     <>
       <section className="service_steps py-[5rem] flex items-center">
-        <div className="px-[20px] lg:px-[50px] w-full text-white text-sm">
+        <div className="px-[20px] lg:px-[100px] w-full text-white text-sm">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {serviceData.map((data, index) => {
               const { icon, title, detail } = data;

@@ -5,13 +5,13 @@ const SalesTwo = () => {
   return (
     <>
       <section className="py-10">
-        <div className="w-full md:px-[50px] px-[20px]">
+        <div className="w-full md:px-[100px] px-[20px]">
           <div className="flex gap-4 items-center">
             <div className="basis-1/2">
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                className="px-5 text-gray-500 text-lg font-jost">
+                className="text-gray-500 text-lg font-jost">
                 At Logistica, we understand that every shipment, every route,
                 and every client is unique. That’s why we approach each project
                 with a personalized touch. Our team of seasoned professionals

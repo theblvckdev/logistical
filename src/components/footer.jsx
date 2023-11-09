@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full bg-white overflow-hidden py-[5rem]">
-        <div className="md:flex gap-4 px-[20px] lg:px-[50px]">
+        <div className="md:flex gap-4 px-[20px] lg:px-[100px]">
           <div className="md:basis-1/2">
             <div>
               <Link to="/" className="text-gray-900">

@@ -6,7 +6,7 @@ const Triumphs = () => {
   return (
     <>
       <section className="pt-[1rem] pb-[5rem] overflow-hidden bg-white">
-        <div className="px-[20px] lg:px-[50px] w-full">
+        <div className="px-[20px] lg:px-[100px] w-full">
           <h1
             data-aos="fade-right"
             data-aos-duration="2000"

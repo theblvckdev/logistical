@@ -8,7 +8,7 @@ const LogisticsCapabilities = ({ showLink }) => {
   return (
     <>
       <section className="logistics_capabilities py-20 bg-white overflow-hidden">
-        <div className="px-[20px] lg:px-[50px] w-full">
+        <div className="px-[20px] lg:px-[100px] w-full">
           <div className="block md:flex gap-4">
             <div className="content_wrap_one w-full md:w-7/12">
               <div>

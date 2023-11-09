@@ -6,7 +6,7 @@ const ContactRef = () => {
   return (
     <>
       <section className="our_staff pt-[5rem] bg-white overflow-hidden">
-        <div className="px-[20px] lg:px-[50px] w-full">
+        <div className="px-[20px] lg:px-[100px] w-full">
           <h1
             data-aos="fade-right"
             data-aos-duration="2000"

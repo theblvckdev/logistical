@@ -7,7 +7,7 @@ const Highlights = () => {
   return (
     <>
       <section className="hightlights py-[5rem] bg-white overflow-hidden">
-        <div className="px-[20px] lg:px-[50px] w-full">
+        <div className="px-[20px] lg:px-[100px] w-full">
           <Link
             to={"/news"}
             data-aos="fade-left"

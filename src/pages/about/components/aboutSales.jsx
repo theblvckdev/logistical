@@ -6,7 +6,7 @@ const AboutSales = () => {
   return (
     <>
       <section className="py-20">
-        <div className="w-full lg:px-[50px] px-[20px]">
+        <div className="w-full lg:px-[100px] px-[20px]">
           <hr />
 
           <div className="mt-5">

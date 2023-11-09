@@ -34,7 +34,7 @@ const Navbar = () => {
           : "bg-transparent fixed top-0 left-0 w-[100vw] z-20 duration-500 py-4"
       }>
       <nav
-        className="mx-full flex items-center justify-between px-[20px] lg:px-[50px]"
+        className="mx-full flex items-center justify-between px-[20px] lg:px-[100px]"
         aria-label="Global">
         <div className="flex lg:flex-1">
           <Link
