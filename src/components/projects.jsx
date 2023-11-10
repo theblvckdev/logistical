@@ -19,7 +19,7 @@ const Projects = () => {
               <img
                 src={imageURL}
                 width={"100%"}
-                className="duration-700"
+                className="duration-700 h-full"
                 alt={imageDescription}
               />
               <div className="image_overlay z-[1] absolute h-full w-full top-0 left-0"></div>

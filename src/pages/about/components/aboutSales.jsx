@@ -13,7 +13,7 @@ const AboutSales = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="2000"
-              className="flex gap-4 items-center">
+              className="lg:flex gap-4 items-center">
               <div className="basis-1/2">
                 <h3
                   data-aos="fade-right"
@@ -33,7 +33,7 @@ const AboutSales = () => {
               </div>
 
               <div className="basis-1/2">
-                <div className="px-0 md:px-10">
+                <div className="px-0 lg:px-10">
                   <h5 className="text-gray-600 text-xl font-jost font-semibold">
                     Why Choose Logistca?
                   </h5>

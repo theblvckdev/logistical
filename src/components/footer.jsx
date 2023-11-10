@@ -59,7 +59,7 @@ const Footer = () => {
               })}
             </div>
           </div>
-          <div className="md:basis-1/3">
+          <div className="md:basis-1/3 mt-5 md:mt-0">
             <h1
               data-aos="fade-up"
               data-aos-duration="2000"

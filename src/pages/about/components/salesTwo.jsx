@@ -5,8 +5,8 @@ const SalesTwo = () => {
   return (
     <>
       <section className="py-10">
-        <div className="w-full md:px-[100px] px-[20px]">
-          <div className="flex gap-4 items-center">
+        <div className="w-full lg:px-[100px] px-[20px]">
+          <div className="lg:flex gap-4 items-center">
             <div className="basis-1/2">
               <div
                 data-aos="fade-right"
